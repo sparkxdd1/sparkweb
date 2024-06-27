@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /*background: url("images/bg.jpg") no-repeat;*/
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='950' preserveAspectRatio='none' viewBox='0 0 1440 950'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1357%26quot%3b)' fill='none'%3e%3crect width='1440' height='950' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1358%26quot%3b)'%3e%3c/rect%3e%3cpath d='M145.735%2c739.312C185.058%2c741.375%2c226.33%2c728.653%2c246.609%2c694.899C267.389%2c660.311%2c260.337%2c617.087%2c240.161%2c582.143C219.986%2c547.202%2c186.062%2c521.462%2c145.735%2c520.193C103.199%2c518.855%2c59.743%2c537.939%2c40.423%2c575.858C22.358%2c611.315%2c40.112%2c651.745%2c61.665%2c685.197C81.011%2c715.224%2c110.064%2c737.441%2c145.735%2c739.312' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M433.664%2c1217.518C535.452%2c1224.948%2c637.203%2c1174.836%2c687.177%2c1085.85C736.277%2c998.421%2c720.869%2c889.163%2c664.726%2c806.081C614.722%2c732.084%2c522.954%2c708.909%2c433.664%2c710.695C348.116%2c712.406%2c260.695%2c740.819%2c218.079%2c815.016C175.599%2c888.976%2c196.792%2c977.808%2c237.062%2c1052.993C280.306%2c1133.73%2c342.318%2c1210.85%2c433.664%2c1217.518' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1268.755%2c316.69C1297.179%2c318.142%2c1327.273%2c310.043%2c1342.185%2c285.801C1357.69%2c260.596%2c1353.728%2c228.516%2c1338.662%2c203.046C1323.886%2c178.066%2c1297.747%2c160.324%2c1268.755%2c161.662C1241.598%2c162.915%2c1221.821%2c184.943%2c1209.194%2c209.019C1197.591%2c231.141%2c1195.168%2c257.052%2c1207.26%2c278.911C1219.741%2c301.474%2c1243.004%2c315.375%2c1268.755%2c316.69' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M459.125%2c651.747C534.62%2c655.424%2c610.42%2c623.224%2c648.855%2c558.142C687.874%2c492.071%2c678.626%2c410.467%2c641.161%2c343.503C602.693%2c274.747%2c537.855%2c216.06%2c459.125%2c219.028C383.916%2c221.863%2c332.926%2c289.003%2c299.406%2c356.388C270.015%2c415.473%2c267.524%2c483.053%2c298.914%2c541.1C332.002%2c602.288%2c389.645%2c648.363%2c459.125%2c651.747' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1454.662%2c474.605C1539.078%2c470.582%2c1602.279%2c403.503%2c1640.349%2c328.051C1674.399%2c260.567%2c1670.163%2c183.62%2c1635.331%2c116.536C1597.078%2c42.862%2c1537.675%2c-29.698%2c1454.662%2c-29.575C1371.785%2c-29.452%2c1316.567%2c45.418%2c1274.917%2c117.069C1232.974%2c189.224%2c1198.08%2c272.773%2c1235.567%2c347.34C1276.226%2c428.217%2c1364.243%2c478.914%2c1454.662%2c474.605' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M932.3233182211143 347.4367222885462L1052.5853778507337 519.1887430352886 1224.337398597476 398.926683405669 1104.0753389678566 227.17466265892668z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1221.233%2c946.096C1298.634%2c948.123%2c1384.175%2c932.811%2c1422.406%2c865.48C1460.327%2c798.694%2c1430.602%2c716.898%2c1387.44%2c653.373C1350.051%2c598.344%2c1287.753%2c570.513%2c1221.233%2c569.394C1152.375%2c568.236%2c1082.271%2c589.67%2c1045.051%2c647.614C1004.904%2c710.115%2c999.759%2c791.429%2c1037.519%2c855.4C1074.726%2c918.435%2c1148.061%2c944.18%2c1221.233%2c946.096' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M46.736%2c428.758C70.831%2c428.599%2c97.103%2c425.17%2c109.722%2c404.643C122.791%2c383.385%2c117.489%2c356.23%2c104.373%2c335.001C91.966%2c314.918%2c70.318%2c303.754%2c46.736%2c302.691C20.865%2c301.525%2c-6.909%2c307.422%2c-20.665%2c329.364C-35.121%2c352.422%2c-32.981%2c382.96%2c-17.707%2c405.484C-3.968%2c425.744%2c22.258%2c428.919%2c46.736%2c428.758' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1357'%3e%3crect width='1440' height='950' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1358'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(37, 62, 116, 0.407);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99px;
+    min-height: 10vh ;
+    max-height: 10vh;
+}
+
+.logo {
+    margin-left: -1.5em;
+    font-size: 1.6em;
+    color: white;
+    user-select: none;
+    left: 10%;
+    
+}
+
+.navbar a {
+    position: relative;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.navbar a::after {
+    content: "";
+    left: 0;
+    bottom: -6px;
+    position: absolute;
+    width: 100%;
+    height: 3.1px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.35s;
+}
+
+.navbar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.navbar .loginbtn-popup {
+    width: 120px;
+    height: 40px;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 40px;
+    border-radius: 5px;
+    outline: 0;
+    background-color: hsla(0, 0%, 0%, 0);
+    cursor: pointer;
+    margin-right: -15px;
+    border: 2px solid white;
+    outline: none;
+}
+
+.navbar .loginbtn-popup:hover {
+    background-color: rgba(255, 255, 255, 0.538);
+    color: rgb(24, 23, 31);
+    font-weight: 600;
+}
+
+.warpper .icon-close {
+    position: absolute;
+    right: -0%;
+    top: 0;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(2, 170, 236, 0.459);
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.warpper {
+    position: absolute;
+    width: 400px;
+    height: 440px;
+    background-color: hsla(0, 0%, 100%, 0.056);
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+    border-radius: 7px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0%);
+    transition: height 0.2s ease;
+    transition: transform 0.2s ease;
+    padding: 0;
+    z-index: 5;
+}
+
+.warpper.active-popup {
+    transform: scale(100%);
+}
+
+.warpper.active {
+    height: 520px;
+}
+
+.warpper .form-box.login {
+    /**/
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+.warpper.active .form-box.login {
+    transition: none;
+    transform: translateX(-400px);
+    display: none;
+}
+
+.warpper .form-box.register {
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+    display: none;
+}
+
+.warpper.active .form-box.register {
+    transition: transform .18s ease;
+    transform: translateX(0);
+    display: block;
+}
+
+
+
+.warpper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid white;
+    margin: 30px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 500;
+    pointer-events: none;
+    color: white;
+    transition: 0.25s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: wheat;
+    line-height: 57px;
+}
+
+.remeber-forgotpass {
+    font-size: 0.9em;
+    color: white;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remeber-forgotpass label input {
+    accent-color: rgb(47, 45, 45);
+    margin-right: 3px;
+}
+
+.remeber-forgotpass a {
+    color: hsl(209, 100%, 50%);
+}
+
+.submitBtnLogin {
+    width: 100%;
+    height: 45px;
+    background: hsla(231, 92%, 24%, 0.232);
+    border: 2px solid;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.submitBtnLogin:hover {
+    background: rgb(86, 105, 252);
+}
+
+.login-link {
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    cursor: pointer;
+}
+
+.register-link {
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    cursor: pointer;
+}
+
+.login-link a {
+    color: hsl(209, 100%, 50%);
+}
+
+.register-link a {
+    color: hsl(209, 100%, 50%);
+}
+
+
+.mainContent {
+    justify-content: left;
+}
+
+aside{
+    position: relative;
+    min-width: 500px;
+    max-width: 500px;
+    border: 2px solid hsla(0, 0%, 100%, 0);
+    background-color: hsla(221, 52%, 30%, 0.407);
+    min-height: 90vh;
+    right: 60%;
+    margin-top: 10vh;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 4;
+}
+
+.firstTextBox {
+    padding-top: 12vh;
+}
+
+.secondTextBox {
+    padding-top: 4em;
+}
+
+
+
+.firstTextBox h2 {
+    font-weight: 200;
+    font-size: xx-large;
+}
+
+.secondTextBox h2 {
+    font-weight: 200;
+    font-size: xx-large;
+}
+
